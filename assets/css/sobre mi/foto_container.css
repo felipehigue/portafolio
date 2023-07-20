@@ -1,0 +1,19 @@
+.foto_cointaner {
+    background-color: green;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-image: url("/assets/imagenes/WhatsApp\ Image\ 2023-06-25\ at\ 4.28.22\ PM.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin: 2rem;
+    padding-top: 1rem;
+}
+
+@media screen and ( min-width:max440px) {
+    .foto_cointaner {
+        width: 5rem;
+        height: 5rem;
+        padding: 0px;
+    }
+}

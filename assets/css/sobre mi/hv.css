@@ -1,0 +1,21 @@
+    .hv {
+        text-decoration: none;
+        padding: .8rem;
+        background-color: var(--color3);
+        border-radius: 20px;
+        text-align: center;
+        margin: 1rem 8rem 5rem 5rem;
+        cursor: pointer;
+    }
+    
+    @media screen and ( min-width:0px) {
+        .hv {
+            margin: 4rem 3rem 5rem 5rem;
+        }
+    }
+    
+    @media screen and ( min-width:720px) {
+        .hv {
+            margin: 4rem 8rem 5rem 8rem;
+        }
+    }

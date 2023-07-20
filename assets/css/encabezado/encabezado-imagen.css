@@ -1,0 +1,6 @@
+.encabezado_imagen {
+    margin: 1rem;
+    width: 50px;
+    height: 50px;
+    color: var(--colorb);
+}

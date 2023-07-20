@@ -1,0 +1,10 @@
+.menu_links {
+    color: var(--color1);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+.menu_links:hover {
+    background-color: var(--color3);
+}

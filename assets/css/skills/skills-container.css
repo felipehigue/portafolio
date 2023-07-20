@@ -1,0 +1,18 @@
+.skiills_container {
+    background-color: black;
+    justify-content: space-between;
+}
+
+@media screen and ( min-width:0px) {
+    .skiills_container {
+        flex-direction: column;
+        height: 9rem;
+        align-items: center;
+    }
+}
+
+@media screen and ( min-width:720px) {
+    .skiills_container {
+        flex-direction: row;
+    }
+}

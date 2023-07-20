@@ -1,0 +1,22 @@
+.encabezado {
+    display: flex;
+    background-color: var(--colorg);
+    width: 100%;
+    height: 6rem;
+    justify-content: space-between;
+    margin: 0, auto;
+}
+
+@media screen and ( min-width:0px) {
+    .encabezado {
+        flex-direction: column;
+        height: 9rem;
+        align-items: center;
+    }
+}
+
+@media screen and ( min-width:720px) {
+    .encabezado {
+        flex-direction: row;
+    }
+}

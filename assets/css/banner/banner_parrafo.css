@@ -1,0 +1,23 @@
+        .parrafo_bananer {
+            color: white;
+            font-size: 4.25rem;
+            position: absolute;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 1rem 1rem;
+            align-items: center;
+        }
+        
+        @media screen and ( max-width:440px) {
+            .parrafo_bananer {
+                font-size: 0.5rem;
+                margin: 5px auto 4px 6px;
+                padding: 2px 2px;
+            }
+        }
+        
+        @media screen and ( max-width:720px) {
+            .parrafo_bananer {
+                font-size: 3.25rem;
+                margin: 5px 40% 60% 5px
+            }
+        }
